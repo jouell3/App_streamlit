@@ -1,7 +1,6 @@
 import pandas as pd
 import plotly.express as px
 import streamlit as st
-import matplotlib.pyplot as plt
 
 def top_n_emitters(df, start_year=2008, end_year=2011, nb_displayed=10):
     
