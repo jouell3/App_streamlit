@@ -17,7 +17,7 @@ def fig_world(df):
 
 st.title("Welcome to this first application to visualize the CO2 production per country and for specific year")
 
-filepath = "/home/jouell/code/jouell3/student-challenges/curriculum/03-Data-Analysis/05-Dashboards-with-Plotly-Dash-Streamlit/01-Challenges/01-Plotly-CO2-emissions/data/CO2_continent.csv"
+filepath = "CO2_continent.csv"
 
 
 co2_df = pd.read_csv(filepath, sep=";")
